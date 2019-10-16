@@ -14,7 +14,7 @@ private:
   int horarioPartida;
   int tempoVoo;
 public:
-  Aeroporto(int codigo){
+  Aeroporto(int codigo)/*{
     this->codigo = codigo;
     this->numeroPousos = 0;
     this->numeroDecolagens = 0;
@@ -23,8 +23,10 @@ public:
     this->horarioChegada = 0;
     this->horarioPartida = 0;
     this->tempoVoo = 0;
-  };
-  int getCodigo(){return this->codigo;};
+  }*/;
+  int getCodigo()/*{
+    return this->codigo;
+  }*/;
   int getNumeroPousos();
   void setNumeroPousos(int numeroPousos);
   int getNumeroDecolagens();
