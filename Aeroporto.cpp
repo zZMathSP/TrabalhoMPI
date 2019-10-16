@@ -1,10 +1,10 @@
 #include <iostream>
-#include <string.h>
+#include <stdlib.h>
 #include "Aeroporto.h"
 
 using namespace std;
 
-/*Aeroporto::Aeroporto(int codigo) {
+Aeroporto::Aeroporto(int codigo) {
   this->codigo = codigo;
   this->numeroPousos = 0;
   this->numeroDecolagens = 0;
@@ -13,64 +13,64 @@ using namespace std;
   this->horarioChegada = 0;
   this->horarioPartida = 0;
   this->tempoVoo = 0;
-}*/
+}
 
-/*Aeroporto::int getCodigo(){
+int Aeroporto::getCodigo() {
   return this->codigo;
-}*/
+}
 
-Aeroporto::int getNumeroPousos() {
+int Aeroporto::getNumeroPousos() {
   return this->numeroPousos;
 }
 
-Aeroporto::void setNumeroPousos(int numeroPousos) {
+void Aeroporto::setNumeroPousos(int numeroPousos) {
   this->numeroPousos = numeroPousos;
 }
 
-Aeroporto::int getNumeroDecolagens() {
+int Aeroporto::getNumeroDecolagens() {
   return this->numeroDecolagens;
 }
 
-Aeroporto::void setNumeroDecolagens(int numeroDecolagens) {
+void Aeroporto::setNumeroDecolagens(int numeroDecolagens) {
   this->numeroDecolagens = numeroDecolagens;
 }
 
-Aeroporto::int getCodigoVoo() {
+int Aeroporto::getCodigoVoo() {
   return this->codigoVoo;
 }
 
-Aeroporto::void setCodigoVoo(int codigoVoo) {
+void Aeroporto::setCodigoVoo(int codigoVoo) {
   this->codigoVoo = codigoVoo;
 }
 
-Aeroporto::int getOrigemVoo() {
+int Aeroporto::getOrigemVoo() {
   return this->origemVoo;
 }
 
-Aeroporto::void setOrigemVoo(int origemVoo) {
+void Aeroporto::setOrigemVoo(int origemVoo) {
   this->origemVoo = origemVoo;
 }
 
-Aeroporto::int getHorarioChegada() {
+int Aeroporto::getHorarioChegada() {
   return this->horarioChegada;
 }
 
-Aeroporto::void setHorarioChegada(int horarioChegada) {
+void Aeroporto::setHorarioChegada(int horarioChegada) {
   this->horarioChegada = horarioChegada;
 }
 
-Aeroporto::int getHorarioPartida() {
+int Aeroporto::getHorarioPartida() {
   return this->horarioPartida;
 }
 
-Aeroporto::void setHorarioPartida(int horarioPartida) {
+void Aeroporto::setHorarioPartida(int horarioPartida) {
   this->horarioPartida = horarioPartida;
 }
 
-Aeroporto::int getTempoVoo() {
+int Aeroporto::getTempoVoo() {
   return this->tempoVoo;
 }
 
-Aeroporto::void setTempoVoo(int tempoVoo) {
+void Aeroporto::setTempoVoo(int tempoVoo) {
   this->tempoVoo = tempoVoo;
 }
