@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string.h>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -14,19 +14,8 @@ private:
   int horarioPartida;
   int tempoVoo;
 public:
-  Aeroporto(int codigo)/*{
-    this->codigo = codigo;
-    this->numeroPousos = 0;
-    this->numeroDecolagens = 0;
-    this->codigoVoo = 0;
-    this->origemVoo = 0;
-    this->horarioChegada = 0;
-    this->horarioPartida = 0;
-    this->tempoVoo = 0;
-  }*/;
-  int getCodigo()/*{
-    return this->codigo;
-  }*/;
+  Aeroporto(int codigo);
+  int getCodigo();
   int getNumeroPousos();
   void setNumeroPousos(int numeroPousos);
   int getNumeroDecolagens();

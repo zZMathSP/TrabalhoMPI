@@ -1,5 +1,3 @@
-#include <iostream>
-#include <stdlib.h>
 #include "Aeroporto.h"
 
 using namespace std;
